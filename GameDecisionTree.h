@@ -29,7 +29,7 @@ public:
 
         infile.open(filename, ios::in); //opens file and checks if it opened
         if (infile.is_open()) {
-            cout << "Welcome to the RPG " << filename << endl;
+            cout << "Welcome to the RPG" << endl;
         } else {
             cout << "Unable to open file " << filename << endl;
         }
