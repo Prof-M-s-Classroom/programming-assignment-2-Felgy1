@@ -10,5 +10,4 @@ public:
 
     Node(T value) : data(value), left(nullptr), right(nullptr){ } // TODO: Implement constructor here
 };
-
 #endif // NODE_H
